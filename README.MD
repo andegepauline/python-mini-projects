@@ -1,6 +1,6 @@
 # Python Mini Projects Collection for Different Levels
 
-This is a collection of Python mini-projects designed to strengthen core programming skills in python such as loops, conditionals, functions, error handling, and working with external modules.
+This is a collection of Python mini-projects designed to strengthen my core programming skills in python such as loops, conditionals, functions, error handling, and working with external modules.
 Each project is self-contained, runs in the terminal, and is explained for easy understanding.
 
 
@@ -12,7 +12,7 @@ Each project is self-contained, runs in the terminal, and is explained for easy 
 
 ## 1. Dice Rolling Game
 **Description:**  
-Simulates rolling two dice (with a configurable number of sides — currently set to 8). The program keeps track of how many times the dice have been rolled and stops when the user chooses to quit.
+Simulates rolling two dice (with a configurable number of sides - currently set to 8). The program keeps track of how many times the dice have been rolled and stops when the user chooses to quit.
 
 **Key Features:**
 - Random dice rolls using `random.randint()`
@@ -35,7 +35,7 @@ Simulates rolling two dice (with a configurable number of sides — currently se
 - cd python-mini-projects
 
 4. Run the Python file:
-- python dice_game.py
+- python dice_rolling_game.py
 
 ---
 
@@ -45,7 +45,7 @@ This is a fun interactive game where the program picks a random number between 1
 
 **Key Features:**
 - Random number generation using `random.randint()`
-- Feedback after each guess (Too High, Too Low, Correct!)
+- Feedback after each guess (too high, too low, correct!)
 - Attempt counter to track how many guesses the user made
 - Continuous play until the correct number is guessed
 
@@ -67,6 +67,8 @@ This is a fun interactive game where the program picks a random number between 1
 
 4. Run the Python file:
 - python number_guessing_game.py
+
+---
 
 ## 📌 Future Mini Projects
 
