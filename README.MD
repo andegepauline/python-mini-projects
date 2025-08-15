@@ -8,6 +8,7 @@ Each project is self-contained, runs in the terminal, clearly commented and is e
 1. [Dice Rolling Game](#1-dice-rolling-game)
 2. [Number Guessing Game](#2-number-guessing-game)
 3.  [Simple Calculator](#3-simple-calculator)
+4. [Word Frequency Counter](#4-word-frequency-counter)
 
 ---
 
@@ -98,6 +99,38 @@ This is a basic calculator program that allows users to perform arithmetic opera
 
 4. Run the Python file:
 - python simple_calculator.py
+
+---
+
+## 4. Word Frequency Counter
+**Description**
+This program counts how many times each word appears in a given sentence or paragraph.  
+It processes the input by **removing punctuation**, **converting text to lowercase**, and then displays word frequencies. It is useful for basic text analysis and understanding how often words are repeated.
+
+**Key Features**
+- Removes punctuation automatically  
+- Converts all words to lowercase for uniform counting  
+- Displays a word frequency dictionary  
+- Works with both short sentences and longer paragraphs  
+
+**Concepts Used**
+- String manipulation (`lower()`, `translate()`, `split()`) 
+- `string` module for punctuation removal
+- Dictionary for counting word occurrences  
+- Loops (`for`) to process words anf frequency calculation  
+- User input handling  
+
+### How to Run
+1. Make sure Python is installed on your machine.
+
+2. Clone the repository:
+- git clone https://github.com/andegepauline/python-mini-projects.git
+
+3. Navigate into the folder:
+- cd python-mini-projects
+
+4. Run the Python file:
+- python word_frequency_counter.py
 
 ---
 
