@@ -1,12 +1,13 @@
 # Python Mini Projects Collection for Different Levels
 
 This is a collection of Python mini-projects designed to strengthen my core programming skills in python such as loops, conditionals, functions, error handling, and working with external modules.
-Each project is self-contained, runs in the terminal, and is explained for easy understanding.
+Each project is self-contained, runs in the terminal, clearly commented and is explained for easy understanding.
 
 
 ## Table of Contents
 1. [Dice Rolling Game](#1-dice-rolling-game)
 2. [Number Guessing Game](#2-number-guessing-game)
+3.  [Simple Calculator](#3-simple-calculator)
 
 ---
 
@@ -40,7 +41,7 @@ Simulates rolling two dice (with a configurable number of sides - currently set 
 ---
 
 ## 2. Number Guessing Game
-**Description:**
+**Description:**  
 This is a fun interactive game where the program picks a random number between 1 and 100, and the player tries to guess it. After each guess, the program tells the player if their guess is too high, too low, or correct. It also tracks how many attempts it takes to guess the number.
 
 **Key Features:**
@@ -67,6 +68,36 @@ This is a fun interactive game where the program picks a random number between 1
 
 4. Run the Python file:
 - python number_guessing_game.py
+
+---
+
+## 3. Simple Calculator
+**Description:**
+This is a basic calculator program that allows users to perform arithmetic operations (`+`, `-`, `*`, `/`) on two numbers. It runs continuously until the user chooses to exit. The calculator also includes input validation to handle errors such as invalid numbers unsupported operators, or division by zero.
+
+**Key Features**
+- Supports **addition, subtraction, multiplication, and division**  
+- Continuous use until the user types **'exit'**  
+- Handles invalid inputs gracefully  
+- Prevents **division by zero**
+
+**Concepts Used**
+- Loops (`while True`) for repeated operations  
+- Conditional statements (`if/elif/else`) to handle operations  
+- Exception handling (`try/except`) for invalid inputs  
+- User input handling
+
+### How to Run
+1. Make sure Python is installed on your machine.
+
+2. Clone the repository:
+- git clone https://github.com/andegepauline/python-mini-projects.git
+
+3. Navigate into the folder:
+- cd python-mini-projects
+
+4. Run the Python file:
+- python simple_calculator.py
 
 ---
 
