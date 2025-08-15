@@ -103,7 +103,7 @@ This is a basic calculator program that allows users to perform arithmetic opera
 ---
 
 ## 4. Word Frequency Counter
-**Description**
+**Description:**
 This program counts how many times each word appears in a given sentence or paragraph.  
 It processes the input by **removing punctuation**, **converting text to lowercase**, and then displays word frequencies. It is useful for basic text analysis and understanding how often words are repeated.
 
