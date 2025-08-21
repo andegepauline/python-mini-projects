@@ -6,7 +6,7 @@ while True:
     # 1. Generate a random number
     comp_guess = random.randint(1, 100)
     count = 0
-    max_attempts = 10  # Bonus: limit number of guesses
+    max_attempts = 10  #Limit number of guesses
 
     print("\nI'm thinking of a number between 1 and 100.")
     print(f"You have {max_attempts} attempts to guess it!")
